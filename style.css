@@ -1,0 +1,89 @@
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+.book .book-summary ul.summary{
+  background-image: url('images/blue.jpg');
+  background-repeat: repeat;
+  color: #6a7045;
+  font-family: system-ui;
+}
+.book .book-body .page-wrapper {
+  background-image: url('images/ontheway.jpg');
+  background-repeat: repeat;
+  color: #e7ddd2;
+}
+
+
+.book .book-body.fixed .body-inner {
+  background-image: url('images/ontheway.jpg');
+  background-repeat: repeat;
+}
+.book .book-summary ul.summary li > a {
+  color: #e7ddd2; /* Change this to any light color you prefer */
+}
+
+.book .book-summary ul.summary li > a:hover {
+  color: #f6fafb; /* Change this to any color you prefer when hovering */
+  background-color: rgba(209, 220, 222, 0.5); /* This adds a semi-transparent black background when hovering */
+}
+
+.book .book-summary ul.summary li.active > a {
+  color: #f6fafb; /* Change this to any color you prefer when a menu item is active */
+  background-color: rgba(209, 220, 222, 0.5); /* This adds a semi-transparent black background for the active menu item */
+}
+.book .book-summary ul.summary::-webkit-scrollbar {
+  width: 12px; /* Adjust scrollbar width */
+}
+
+.book .book-summary ul.summary::-webkit-scrollbar-track {
+  background: #d49c6b; /* Adjust scrollbar track color */
+}
+
+.book .book-summary ul.summary::-webkit-scrollbar-thumb {
+  background: #955f31; /* Adjust scrollbar handle color */
+  border-radius: 10px; /* Make the scrollbar handle more rounded */
+}
+.book .book-summary ul.summary::-webkit-scrollbar-thumb:active {
+  background: #d3b695; /* Adjust active scrollbar handle color */
+}
+.book .book-body .body-inner::-webkit-scrollbar {
+  width: 12px; /* Adjust scrollbar width */
+}
+
+.book .book-body .body-inner::-webkit-scrollbar-track {
+  background: #d49c6b; /* Adjust scrollbar track color */
+}
+
+.book .book-body .body-inner::-webkit-scrollbar-thumb {
+  background: #955f31; /* Adjust scrollbar handle color */
+  border-radius: 10px; /* Make the scrollbar handle more rounded */
+}
+
+.book .book-body .body-inner::-webkit-scrollbar-thumb:active {
+  background: #d3b695; /* Adjust active scrollbar handle color */
+}
+.book.with-summary .book-header.fixed {
+  background-color:#cba27a!important;
+}
+.book .book-header {
+  background-color: #955f31; /* Adjust header background color */
+}
+
+.book .book-header h1, .book .book-header a {
+  color: #d3b695; /* Adjust header text and icon color */
+}
+
+.book .book-header a:hover {
+  color: #402f1c!important; /* Adjust header text and icon color when hovering */
+}
